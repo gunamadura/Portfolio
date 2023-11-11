@@ -11,6 +11,7 @@
 }
 body{
   overflow-x: hidden;
+  color: goldenrod;
   background-color: #000000;
 }
 
@@ -41,14 +42,14 @@ header {
 
 a {
   text-decoration: none;
-  color: #000;
+  color:orangered;
   font-weight: bold;
   font-size: 1.3rem;
   text-transform: capitalize;
 }
 
 a:hover {
-  color: red;
+  color: rgb(38, 34, 34);
   text-decoration: underline;
 }
 
@@ -58,16 +59,16 @@ a:hover {
 }
 .hero__heading {
   font-size: 3.5rem;
-  color: #212121;
+  color: #f2ecec;
   z-index: 1;
   line-height: 1;
 }
 
 span {
-  color: orange;
+  color: rgb(102, 202, 227);
 }
 
-.hero__para {
+.hero__para{
   color: #555;
   padding-top: 1em;
   font-size: 1.4rem;
@@ -80,7 +81,7 @@ span {
 
   font-weight: bold;
   font-size: 1.1rem;
-  color: #fff;
+  color: #e3a1a1;
   display: inline-block;
   margin: 30px 0;
   border-radius: 5px;
@@ -142,4 +143,22 @@ span {
 }
 .gap1{
   gap:1em;
+}
+.phone {
+  color: darkkhaki;
+}
+.edu{
+  color: #e3a1a1;
+}
+.head{
+  color: cadetblue;
+}
+.move{
+  color: darkslategrey;
+}
+.pro{
+  color: orange;
+}
+.data{
+  color: aliceblue;
 }
